@@ -1,0 +1,1 @@
+test secure text file with some text
