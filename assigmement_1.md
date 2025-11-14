@@ -1,3 +1,5 @@
+<!-- cd /mnt/d -->
+
 1. Creating and Renaming Files/Directories
 
 Commands:
