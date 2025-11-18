@@ -10,4 +10,7 @@
     # 3 write and  # 4 read
     python scripting/read-write_file.py
 
+# third assignment
+Please check microservice dir and read README.md to run code
+
 
