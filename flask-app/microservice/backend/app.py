@@ -22,14 +22,14 @@ class JSONEncoder(json.JSONEncoder):
         return super().default(obj)
 
 
+# @app.route("/api", methods=["GET"])
+# def get_api_data():
+#     with open("data.json") as f:
+#         data = json.load(f)
+#     return jsonify(data)
+
+
 @app.route("/api", methods=["GET"])
-def get_api_data():
-    with open("data.json") as f:
-        data = json.load(f)
-    return jsonify(data)
-
-
-@app.route("/view-data")
 def get_data():
     data = list(collection.find())
 
